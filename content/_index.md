@@ -1,11 +1,10 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-07-07
 weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
 ### Student Information:
@@ -19,13 +18,13 @@ chapter: false
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHC3
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 04/05/2026 to 04/08/2026
 
 ![Your profile picture](/images/avatar.jpg)
 

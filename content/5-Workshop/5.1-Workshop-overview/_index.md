@@ -40,6 +40,6 @@ After completing the workshop, you will have:
 - Clear configuration sequence between components in the architecture.
 - Placeholder sections to add actual images from your deployment process.
 
-## Sơ đồ kiến trúc tổng thể mới của dự án
+## New overall architecture diagram of the project
 
 ![Overview](/images/5-Workshop/5.1-Workshop-overview/globalmart.png)
