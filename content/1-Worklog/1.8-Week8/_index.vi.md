@@ -1,59 +1,30 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+date: 2026-06-22
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu quy trình dịch chuyển hệ thống lên AWS: dịch chuyển máy ảo, chuyển đổi lược đồ cơ sở dữ liệu, di chuyển CSDL.
+* Tìm hiểu các giải pháp tối ưu hóa hệ thống: tự động tắt/mở EC2 kèm thông báo qua Slack bằng AWS Lambda.
+* Thực hành Lab8: xây dựng bảng theo dõi hệ thống với Amazon CloudWatch và Grafana.
+* Tìm hiểu quản lý tài nguyên theo nhóm bằng Tag và Resource Groups (Owner, Environment, Project); quản lý quyền truy cập EC2 theo Tag thông qua IAM.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Tìm hiểu quy trình di chuyển lên AWS: <br>&emsp; + Dịch chuyển máy ảo <br>&emsp; + Chuyển đổi lược đồ CSDL <br>&emsp; + Di chuyển CSDL <br>                                                                 | 22/06/2026   | 22/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Tìm hiểu tối ưu hóa hệ thống: <br>&emsp; + Tự động tắt/mở EC2 <br>&emsp; + Thông báo Slack dùng AWS Lambda <br>                                                                              | 23/06/2026   | 23/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Tìm hiểu Tag và Resource Groups: <br>&emsp; + Owner <br>&emsp; + Environment <br>&emsp; + Project <br>&emsp; + Quản lý quyền truy cập EC2 theo Tag qua IAM <br>                                                    | 24/06/2026   | 24/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Thực hành Lab8:** <br>&emsp; + Xây dựng bảng theo dõi hệ thống với Amazon CloudWatch <br>&emsp; + Tích hợp với Grafana <br>&emsp; + Thiết lập metrics và cảnh báo giám sát <br>                                                                 | 25/06/2026   | 26/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Xem lại và củng cố kiến thức tuần 8 <br> - Chuẩn bị nội dung cho tuần tiếp theo <br>                                                                                                      | 27/06/2026   | 28/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Học được quy trình dịch chuyển hệ thống lên AWS.
+* Học được các giải pháp tối ưu hóa hệ thống với tự động tắt/mở EC2 và thông báo Slack dùng Lambda.
+* Hoàn thành thành công Lab8: xây dựng bảng theo dõi hệ thống với CloudWatch và Grafana.
+* Học được quản lý tài nguyên dùng Tag và Resource Groups.
+* Học được quản lý quyền truy cập EC2 theo Tag thông qua IAM.

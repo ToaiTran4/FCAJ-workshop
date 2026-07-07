@@ -1,58 +1,29 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 6:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu Amazon RDS (Relational Database Service): hỗ trợ Multi-AZ giúp tăng tính sẵn sàng, hỗ trợ Read Replica giúp tăng tốc độ đọc.
+* So sánh và lựa chọn dịch vụ lưu trữ dữ liệu phù hợp theo bài toán thực tế: RDS (OLTP), Database trên EC2 (tự quản trị), DynamoDB (NoSQL), Redshift (OLAP), Neptune (dữ liệu đồ thị), ElastiCache (cache), S3 (Object Storage).
+* Tìm hiểu cách mã hóa dữ liệu lưu trữ và dữ liệu truyền tải cho RDS (tạo snapshot, mã hóa, restore thành DB instance mới).
+* Thực hành Lab6: cấu hình Security Group và Subnet Group, tạo EC2 và RDS Instance, SSH và kết nối vào database.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Tìm hiểu cơ bản Amazon RDS: <br>&emsp; + Multi-AZ deployment <br>&emsp; + Read Replica <br>                                                                                              | 08/06/2026   | 08/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - So sánh các dịch vụ lưu trữ dữ liệu AWS: <br>&emsp; + RDS (OLTP) <br>&emsp; + Database trên EC2 (tự quản trị) <br>&emsp; + DynamoDB (NoSQL) <br>&emsp; + Redshift (OLAP) <br>&emsp; + Neptune (đồ thị) <br>&emsp; + ElastiCache <br>&emsp; + S3 <br> | 09/06/2026   | 09/06/2026      | <https://blog.cloudmentor.pro/> |
+| 4   | - Tìm hiểu mã hóa dữ liệu cho RDS: <br>&emsp; + Mã hóa dữ liệu lưu trữ <br>&emsp; + Mã hóa dữ liệu truyền tải <br>&emsp; + Tạo snapshot mã hóa <br>&emsp; + Restore thành DB instance mới <br>                                      | 10/06/2026   | 10/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Thực hành Lab6:** <br>&emsp; + Cấu hình Security Group và Subnet Group <br>&emsp; + Tạo EC2 và RDS Instance <br>&emsp; + SSH và kết nối vào database <br>                                                          | 11/06/2026   | 12/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Xem lại và củng cố kiến thức tuần 6 <br> - Chuẩn bị nội dung cho tuần tiếp theo <br>                                                                                                      | 13/06/2026   | 14/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Nắm vững Amazon RDS, bao gồm Multi-AZ và Read Replica.
+* So sánh và hiểu các dịch vụ lưu trữ dữ liệu AWS khác nhau và trường hợp sử dụng của chúng.
+* Học được cách mã hóa dữ liệu lưu trữ và dữ liệu truyền tải cho RDS.
+* Hoàn thành thành công Lab6: cấu hình và kết nối vào database RDS.

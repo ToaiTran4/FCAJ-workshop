@@ -1,126 +1,114 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-06-27
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
+# Workshop "Building Enterprise AI with AWS" Reflection
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+## Event Purpose
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+The workshop "Building Enterprise AI with AWS" was organized to share new trends in applying Artificial Intelligence (AI) in enterprises on the AWS platform. The program focused on AI Agent solutions, operational automation (AIOps), Voice Agent systems, secure data management, and improving enterprise productivity through Generative AI.
 
-### Event Objectives
+Through this workshop, participants had the opportunity to:
+- Learn how to build enterprise-focused AI systems.
+- Access modern AI Agent architectures on AWS.
+- Understand how to apply Amazon Bedrock and Amazon Q in practice.
+- Learn AI deployment models that ensure performance, scalability, and security.
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+---
 
-### Speakers
+# Session List
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+## Session 1 - Deep Response Engine: Autonomous Incident Response
+I was late so I didn't hear this part 
 
-### Key Highlights
+---
 
-#### Identifying the drawbacks of legacy application architecture
+## Session 2 - Voice Agents: Building Enterprise Conversational AI
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+### Highlights
+- Introduction to modern Voice Agent architecture replacing traditional IVR.
+- Processing chain:
+  - Speech-to-Text (STT)
+  - Large Language Model (LLM)
+  - Text-to-Speech (TTS)
+- Challenges with latency, real-time processing, and Vietnamese language.
+- Applying Amazon Bedrock with Real-time Streaming to optimize conversation experience.
 
-#### Transitioning to modern application architecture – Microservices
+### Lessons Learned
+- Understand the overall architecture of Voice AI systems.
+- Know factors affecting conversational AI latency.
+- Understand how to integrate LLM with enterprise data through MCP.
+- Gain more knowledge about building voice assistants for customer service.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+---
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+## Session 3 - AWS DevOps Agent
 
-#### Domain-Driven Design (DDD)
+### Highlights
+- Build DevOps Agent based on Bedrock AgentCore.
+- Apply Multi-Agent Reasoning in system operations.
+- Automate:
+  - Log analysis.
+  - Security checks.
+  - Performance testing.
+  - Fix bugs and redeploy applications.
+- Demo operations on Amazon ECS.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### Lessons Learned
+- Understand how AI Agent supports DevOps teams.
+- Know the process of automatically detecting and fixing container issues.
+- Understand benefits of Multi-Agent in complex tasks.
+- See the potential of applying AI in CI/CD and System Operations.
 
-#### Event-Driven Architecture
+---
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+## Session 4 - AI-Powered Productivity for Human Resources
 
-#### Compute Evolution
+### Highlights
+- Apply AI in human resource management.
+- Amazon Quick supports:
+  - CV Screening.
+  - Skill Gap Analysis.
+  - Workforce Analytics.
+- Data analysis to support decision-making in enterprises.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### Lessons Learned
+- Understand how AI processes unstructured data.
+- Know how AI supports recruitment and personnel training.
+- Understand value of Data-driven Decision Making in enterprise management.
+- See the scalability of AI beyond software development.
 
-#### Amazon Q Developer
+---
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+## Session 5 - Secure MCP Connectivity with Amazon Q
 
-### Key Takeaways
+### Highlights
+- Introduction to Model Context Protocol (MCP).
+- Architecture for connecting Amazon Q with enterprise internal data.
+- Set up Private VPC Endpoint.
+- MCP Server deployed on ECS, EKS or Lambda.
+- Apply IAM Least Privilege and Audit Logging to ensure data safety.
 
-#### Design Mindset
+### Lessons Learned
+- Understand MCP's role in modern AI ecosystem.
+- Know how to build secure connections between AI and internal systems.
+- Understand importance of VPC Endpoint in security.
+- Be aware of access control requirements when deploying AI for enterprises.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+---
 
-#### Technical Architecture
+# What I Learned
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+This workshop brought much practical knowledge about deploying Generative AI in enterprise environments. Instead of just focusing on AI models, speakers emphasized building a complete AI system including Observability, Automation, Security, and Governance.
 
-#### Modernization Strategy
+Some notable knowledge I gained includes:
+- Grasp **Voice Agent** architecture and STT, LLM, TTS components.
+- Understand how to apply **Multi-Agent Architecture** in DevOps.
+- Know how to deploy Amazon Bedrock and Amazon Q in enterprise environment.
+- Understand **Model Context Protocol (MCP)** role in connecting AI with internal data.
+- Improve knowledge about security when deploying AI through VPC Endpoint, IAM, and Audit Logging.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+---

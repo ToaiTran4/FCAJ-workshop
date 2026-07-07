@@ -1,57 +1,29 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn about Amazon RDS (Relational Database Service): supports Multi-AZ to increase availability, supports Read Replica to increase read speed.
+* Compare and choose appropriate data storage services based on practical problems: RDS (OLTP), Database on EC2 (self-managed), DynamoDB (NoSQL), Redshift (OLAP), Neptune (graph data), ElastiCache (cache), S3 (Object Storage).
+* Learn how to encrypt stored data and transmitted data for RDS (create snapshot, encrypt, restore to new DB instance).
+* Practice Lab6: configure Security Group and Subnet Group, create EC2 and RDS Instance, SSH and connect to database.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn Amazon RDS basics: <br>&emsp; + Multi-AZ deployment <br>&emsp; + Read Replica <br>                                                                                                                    | 08/06/2026 | 08/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Compare AWS data storage services: <br>&emsp; + RDS (OLTP) <br>&emsp; + EC2 database (self-managed) <br>&emsp; + DynamoDB (NoSQL) <br>&emsp; + Redshift (OLAP) <br>&emsp; + Neptune (graph) <br>&emsp; + ElastiCache <br>&emsp; + S3 <br> | 09/06/2026 | 09/06/2026      | <https://blog.cloudmentor.pro/> |
+| 4   | - Learn data encryption for RDS: <br>&emsp; + Encrypt stored data <br>&emsp; + Encrypt data in transit <br>&emsp; + Create encrypted snapshot <br>&emsp; + Restore to new DB instance <br>                                      | 10/06/2026 | 10/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Practice Lab6:** <br>&emsp; + Configure Security Group and Subnet Group <br>&emsp; + Create EC2 and RDS Instance <br>&emsp; + SSH and connect to database <br>                                                          | 11/06/2026 | 12/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Review and consolidate knowledge of week 6 <br> - Prepare for next week's content <br>                                                                                                               | 13/06/2026 | 14/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 6 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Mastered Amazon RDS, including Multi-AZ and Read Replica.
+* Compared and understood different AWS data storage services and their use cases.
+* Learned how to encrypt stored data and transmitted data for RDS.
+* Successfully completed Lab6: configured and connected to RDS database.
