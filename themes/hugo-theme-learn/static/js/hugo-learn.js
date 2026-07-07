@@ -22,7 +22,7 @@ var images = $("div#body-inner img").not(".inline");
 images.wrap(function () {
   var image = $(this);
   var o = getUrlParameter(image[0].src);
-  var f = o["featherlight"];
+  var f = o && o["featherlight"];
   // IF featherlight is false, do not use feather light
   if (f != "false") {
     if (!image.parent("a").length) {
@@ -35,7 +35,7 @@ images.wrap(function () {
 images.each(function (index) {
   var image = $(this);
   var o = getUrlParameter(image[0].src);
-  if (typeof o !== "undefined") {
+  if (typeof o !== "undefined" && o !== undefined) {
     var h = o["height"];
     var w = o["width"];
     var c = o["classes"];

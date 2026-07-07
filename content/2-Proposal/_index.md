@@ -25,7 +25,7 @@ The project brings significant practical value by streamlining the CI/CD engine,
 ### 3. Solution Architecture
 The project architecture is set up synchronously on the AWS Fargate platform (Serverless Container) and a multi-layer security network model via Security Groups matrix. The infrastructure diagram is detailed below:
 
-![GlobalMart Deployment Architecture](/images/2-Proposal/GlobalMart.png)
+![GlobalMart Deployment Architecture](/images/2-Proposal/globalmart.png)
 
 ### AWS Services Used
 - **AWS VPC & IAM OIDC**: Set up core network including Public Subnet (Internet routing) and isolated Private Subnets, combined with configuring Identity Provider to allow GitHub Actions to establish a secure trusted connection.
