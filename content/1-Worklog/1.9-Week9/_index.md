@@ -1,6 +1,6 @@
 ---
 title: "Week 9 Worklog"
-date: 2026-06-28
+date: 2026-06-29
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
@@ -15,11 +15,11 @@ pre: " <b> 1.9. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Learn about AWS Systems Manager: <br>&emsp; + Fleet Manager <br>&emsp; + Patch Manager <br>&emsp; + Run Command <br>                                                                                  | 28/06/2026 | 28/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Learn about Session Manager: <br>&emsp; + Create Role AmazonSSMManagedInstanceCore <br>&emsp; + Create VPC Endpoints <br>&emsp; + Connect via UI <br>                                                         | 29/06/2026 | 29/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - **Practice Lab9:** <br>&emsp; + Configure Session Manager <br>&emsp; + Test connections without SSH <br>                                                                                             | 30/06/2026 | 30/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn about AWS CloudFormation: <br>&emsp; + Infrastructure as Code (IaC) <br>&emsp; + Templates (YAML/JSON) <br>&emsp; + Stacks <br>&emsp; + Resources <br>                                                          | 01/07/2026 | 02/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - Learn overview of additional services: <br>&emsp; + AWS WAF <br>&emsp; + Storage Gateway <br>&emsp; + Amazon Cognito <br>&emsp; + ECS/ECR <br>&emsp; + SQS <br>&emsp; + Textract <br>&emsp; + EventBridge <br>&emsp; + SES/SNS <br>&emsp; + CodeCommit/CodeBuild/CodeDeploy <br>&emsp; + Review all weeks <br> | 03/07/2026 | 05/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn about AWS Systems Manager: <br>&emsp; + Fleet Manager <br>&emsp; + Patch Manager <br>&emsp; + Run Command <br>                                                                                  | 29/06/2026 | 29/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Learn about Session Manager: <br>&emsp; + Create Role AmazonSSMManagedInstanceCore <br>&emsp; + Create VPC Endpoints <br>&emsp; + Connect via UI <br>                                                         | 30/06/2026 | 30/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - **Practice Lab9:** <br>&emsp; + Configure Session Manager <br>&emsp; + Test connections without SSH <br>                                                                                             | 01/07/2026 | 01/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Learn about AWS CloudFormation: <br>&emsp; + Infrastructure as Code (IaC) <br>&emsp; + Templates (YAML/JSON) <br>&emsp; + Stacks <br>&emsp; + Resources <br>                                                          | 02/07/2026 | 03/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Learn overview of additional services: <br>&emsp; + AWS WAF <br>&emsp; + Storage Gateway <br>&emsp; + Amazon Cognito <br>&emsp; + ECS/ECR <br>&emsp; + SQS <br>&emsp; + Textract <br>&emsp; + EventBridge <br>&emsp; + SES/SNS <br>&emsp; + CodeCommit/CodeBuild/CodeDeploy <br>&emsp; + Review all weeks <br> | 04/07/2026 | 06/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 9 Achievements:

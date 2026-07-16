@@ -1,6 +1,6 @@
 ---
 title: "Week 8 Worklog"
-date: 2026-06-22
+date: 2026-06-23
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -15,11 +15,11 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Learn about AWS migration process: <br>&emsp; + Migrate virtual machines <br>&emsp; + Convert database schema <br>&emsp; + Move databases <br>                                                                 | 22/06/2026 | 22/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Learn about system optimization: <br>&emsp; + Automatically turn on/off EC2 <br>&emsp; + Slack notifications with AWS Lambda <br>                                                                              | 23/06/2026 | 23/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Learn about Tags and Resource Groups: <br>&emsp; + Owner <br>&emsp; + Environment <br>&emsp; + Project <br>&emsp; + Manage EC2 access by Tag through IAM <br>                                                    | 24/06/2026 | 24/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - **Practice Lab8:** <br>&emsp; + Build system monitoring dashboard with Amazon CloudWatch <br>&emsp; + Integrate with Grafana <br>&emsp; + Set up monitoring metrics and alerts <br>                                                                 | 25/06/2026 | 26/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - Review and consolidate knowledge of week 8 <br> - Prepare for next week's content <br>                                                                                                               | 27/06/2026 | 28/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn about AWS migration process: <br>&emsp; + Migrate virtual machines <br>&emsp; + Convert database schema <br>&emsp; + Move databases <br>                                                                 | 23/06/2026 | 23/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Learn about system optimization: <br>&emsp; + Automatically turn on/off EC2 <br>&emsp; + Slack notifications with AWS Lambda <br>                                                                              | 24/06/2026 | 24/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Learn about Tags and Resource Groups: <br>&emsp; + Owner <br>&emsp; + Environment <br>&emsp; + Project <br>&emsp; + Manage EC2 access by Tag through IAM <br>                                                    | 25/06/2026 | 25/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Practice Lab8:** <br>&emsp; + Build system monitoring dashboard with Amazon CloudWatch <br>&emsp; + Integrate with Grafana <br>&emsp; + Set up monitoring metrics and alerts <br>                                                                 | 26/06/2026 | 27/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Review and consolidate knowledge of week 8 <br> - Prepare for next week's content <br>                                                                                                               | 28/06/2026 | 29/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 8 Achievements:

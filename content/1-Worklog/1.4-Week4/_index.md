@@ -1,6 +1,6 @@
 ---
 title: "Week 4 Worklog"
-date: 2026-05-25
+date: 2026-05-26
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.4. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Learn about EC2 in-depth: <br>&emsp; + AMI (Amazon Machine Image) <br>&emsp; + How AMI works (Snapshot + metadata) <br>                                                                                     | 25/05/2026 | 25/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Learn about Amazon EBS Volume <br> - Learn about AWS Lifecycle Manager for automating snapshots <br>                                                                                            | 26/05/2026 | 26/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Learn how to recover access to EC2: <br>&emsp; + Reset password on EC2 Windows using SSM <br>&emsp; + Use User Data on EC2 Linux <br>                                                                      | 27/05/2026 | 27/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - **Practice Lab4:** <br>&emsp; + Create custom AMI <br>&emsp; + Launch instance from custom AMI <br>&emsp; + Practice recovering access <br>                                                                   | 28/05/2026 | 29/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - Learn IAM policies for resource limiting: <br>&emsp; + Limit by Region <br>&emsp; + Limit by Instance Family/Type <br>&emsp; + Limit EBS Volume type <br>&emsp; + Delete resources by IP/time <br>&emsp; + Review and consolidate week 4 <br> | 30/05/2026 | 31/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn about EC2 in-depth: <br>&emsp; + AMI (Amazon Machine Image) <br>&emsp; + How AMI works (Snapshot + metadata) <br>                                                                                     | 26/05/2026 | 26/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Learn about Amazon EBS Volume <br> - Learn about AWS Lifecycle Manager for automating snapshots <br>                                                                                            | 27/05/2026 | 27/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Learn how to recover access to EC2: <br>&emsp; + Reset password on EC2 Windows using SSM <br>&emsp; + Use User Data on EC2 Linux <br>                                                                      | 28/05/2026 | 28/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - **Practice Lab4:** <br>&emsp; + Create custom AMI <br>&emsp; + Launch instance from custom AMI <br>&emsp; + Practice recovering access <br>                                                                   | 29/05/2026 | 30/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Learn IAM policies for resource limiting: <br>&emsp; + Limit by Region <br>&emsp; + Limit by Instance Family/Type <br>&emsp; + Limit EBS Volume type <br>&emsp; + Delete resources by IP/time <br>&emsp; + Review and consolidate week 4 <br> | 31/05/2026 | 01/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 4 Achievements:
